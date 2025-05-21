@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Berlin Blue</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-image: url('https://bloximages.chicago2.vip.townnews.com/northumberlandnews.com/content/tncms/assets/v3/editorial/2/99/29982637-acce-5a01-a3f9-d206409a6d8a/63deb5f6d2414.image.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    header {
+      background: rgba(53, 66, 74, 0.8);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    nav {
+      background: #e8491d;
+      color: white;
+    }
+
+    nav ul {
+      padding: 0;
+      list-style: none;
+      text-align: center;
+    }
+
+    nav li {
+      display: inline;
+      padding: 0 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 20px 0;
+    }
+
+    footer {
+      background: rgba(53, 66, 74, 0.8);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .buffalo {
+      position: fixed;
+      top: 20%;
+      left: 20%;
+      width: 150px;
+      height: 150px;
+      z-index: 10;
+      animation: spin 20s linear infinite, moveAround 40s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes moveAround {
+      0% { top: 10%; left: 10%; }
+      25% { top: 10%; left: 80%; }
+      50% { top: 70%; left: 80%; }
+      75% { top: 70%; left: 10%; }
+      100% { top: 10%; left: 10%; }
+    }
+
+    @media(max-width: 768px) {
+      .container {
+        width: 90%;
+      }
+
+      nav li {
+        display: block;
+        padding: 10px;
+      }
+
+      .buffalo {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img class="buffalo" src="https://howtodrawforkids.com/wp-content/uploads/2021/12/how-to-draw-a-buffalo-featured-image.jpeg" alt="Spinning Buffalo">
+
+  <header>
+    <h1>The Berlin Blue</h1>
+    <p>Created by Nathan</p>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#project">Project Details</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <div class="container">
+    <section id="home">
+      <h2>Welcome to The-Berlin-Blues</h2>
+      <p>This is the official website for the play The Berlin Blue. Here you can find all the information, and buy tickets for our next play.</p>
+      <img src="https://www.drewhaydentaylor.com/wp-content/uploads/2023/03/The-Berlin-Blues.jpg" alt="Project Image" style="width:100%; max-width:600px;">
+    </section>
+    
+    <section id="about">
+      <h2>About the Play</h2>
+      <p>This play explores [brief description of what your project is about]. The main objectives are:</p>
+      <ul>
+        <li>Quote 1: </li>
+        <li>Explain 1:</li>
+        <li>Quote 2:</li>
+        <li>Explain 2: </li>
+        <li>Conclusion: </li>
+      </ul>
+    </section>
+    
+    <section id="project">
+      <h2>Ticket Details</h2>
+      <p>Date: June 1, 2024</p>
+      <p>Price: $30</p>
+      <p>Cast Bios: Nathan Jiang</p>
+      <p>Location: 50 Tank House Lane, Toronto, ON M5A 3C4 </p>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you have any questions about the play, you can find more information at:</p>
+      <p>Youtube: https://www.youtube.com/@TheBerlinBluePlay </p>
+      <p>Twitter: https://twitter.com/TheBerlinBlue_</p>
+      <p>Tiktok: https://www.tiktok.com/@berlinblue_official</p>
+    </section>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 The-Berlin-Blue. All rights reserved.</p>
+  </footer>
+</body>
+</html>
